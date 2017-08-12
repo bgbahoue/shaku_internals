@@ -1,0 +1,14 @@
+[root]
+name = "shaku_internals"
+version = "0.2.0"
+dependencies = [
+ "assayer 0.2.0 (git+ssh://git@github.com/humanenginuity/assayer)",
+]
+
+[[package]]
+name = "assayer"
+version = "0.2.0"
+source = "git+ssh://git@github.com/humanenginuity/assayer#2de082913e3a571d68caae8d691cd9fc5337131c"
+
+[metadata]
+"checksum assayer 0.2.0 (git+ssh://git@github.com/humanenginuity/assayer)" = "<none>"
