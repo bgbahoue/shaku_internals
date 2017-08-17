@@ -17,7 +17,7 @@ use assayer::Error as ValidatorError;
 // =======================================================================
 // STRUCT DEFINITION
 // =======================================================================
-/// This type represents all possible errors that can occur when registering or resolving components or when generating the code to do so. 
+/// This type represents all possible errors that can occur when registering or resolving components or when generating the code to do so.
 #[derive(Clone)]
 pub enum Error {
     /// Error generated during procedural macro `#[derive(Component)]`'s code generation.
@@ -55,7 +55,7 @@ impl StdError for Error {
 }
 
 /// Returns the error's `description()` prefixed by the error's type.
-/// For RegistrationError, list the message of each the errors encountered (i.e. the 3rd String tuple entry). 
+/// For RegistrationError, list the message of each the errors encountered (i.e. the 3rd String tuple entry).
 impl fmt::Display for Error {
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
         match *self {
