@@ -1,6 +1,6 @@
 [package]
 name = "shaku_internals"
-version = "0.2.0"
+version = "0.2.1"
 authors = ["Boris <boris@humanenginuity.com>"]
 description = "Common code for shaku crates"
 repository = "https://github.com/humanenginuity/shaku_internals"
